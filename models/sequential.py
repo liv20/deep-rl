@@ -1,18 +1,18 @@
 import torch.nn as nn
 
-def mlp(input_size, hidden_size, output_size, hidden_depth, activation=nn.ReLU):
+def mlp(input_size, output_size, hidden_depth, hidden_size, activation=nn.ReLU):
     """
     Creates multi-layer perceptron. Output layer is linear.
 
     Parameters:
     input_size : int
      - size of input space
-    hidden_size : int
-     - size of hidden layers
     output_size : int
      - size of output space
     hidden_depth : int
      - depth of hidden network
+    hidden_size : int
+     - size of hidden layers
     activation : nn
      - activation function in hidden layers (default: nn.ReLU)
     

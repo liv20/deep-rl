@@ -1,3 +1,6 @@
 ---
- env_name: "CartPole-v0",
- 
+ env_name: "CartPole-v0"
+ lr: 0.005
+ max_timesteps: 200000
+ max_episode_timesteps: 1000
+ gamma: 0.99
